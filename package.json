@@ -1,0 +1,28 @@
+{
+  "name": "generator-roll-jquery",
+  "version": "1.0.0",
+  "description": "Blueprint for ROLL studio's creations using jQuery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rollstudio/generator-roll-jquery.git"
+  },
+  "files": [
+    "app"
+],
+  "keywords": [
+    "yeoman-generator",
+    "jquery",
+    "html5",
+    "roll",
+    "roll-studio"
+  ],
+  "author": "Vincent De Feo <ghzmdr>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/rollstudio/generator-roll-jquery/issues"
+  },
+  "homepage": "https://github.com/rollstudio/generator-roll-jquery#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.21.1"
+  }
+}
