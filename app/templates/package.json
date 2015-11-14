@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "description": "<%= description %>",
   "author": "<%= author %>",
+	"scripts": {
+		"dev": "gulp serve<%= supportIE9 ? ' --ie9' : '' %>",
+		"prod": "gulp build --prod<%= supportIE9 ? ' --ie9' : '' %>",
+		"test-prod": "gulp serve --prod<%= supportIE9 ? ' --ie9' : '' %>"
+	},
   "homepage": "<%= 'http://' + name + '.dev.rollstudio.it' %>"
 }

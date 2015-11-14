@@ -1,17 +1,16 @@
 {
-  "name": "generator-roll-jquery",
+  "name": "generator-roll-html5",
   "version": "1.0.0",
-  "description": "Blueprint for ROLL studio's creations using jQuery",
+  "description": "Blueprint for ROLL studio's creations. Software stack: Gulp, BrowserSync, SASS, Browserify, and various css/js utilities",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rollstudio/generator-roll-jquery.git"
   },
   "files": [
     "app"
-	],
+  ],
   "keywords": [
     "yeoman-generator",
-    "jquery",
     "html5",
     "roll",
     "roll-studio"
@@ -19,10 +18,12 @@
   "author": "Vincent De Feo <ghzmdr>",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/rollstudio/generator-roll-jquery/issues"
+    "url": "https://github.com/rollstudio/generator-roll-html5/issues"
   },
-  "homepage": "https://github.com/rollstudio/generator-roll-jquery#readme",
+  "homepage": "https://github.com/rollstudio/generator-roll-html5#readme",
   "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^3.10.1",
     "yeoman-generator": "^0.21.1"
   }
 }
